@@ -1,0 +1,25 @@
+{
+  "name": "not-secret-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "b4a": "^1.6.6",
+    "compact-encoding": "^2.15.0",
+    "framed-stream": "^1.0.1",
+    "hypercore-crypto": "^3.4.2",
+    "streamx": "^2.17.0"
+  },
+  "devDependencies": {
+    "brittle": "^3.5.2",
+    "corestore": "^6.18.2",
+    "duplex-through": "^1.0.2",
+    "random-access-memory": "^6.2.1"
+  }
+}
