@@ -1,7 +1,9 @@
 # Not Secret Stream
 
+## What
 An **unencrypted** interface compatible, drop-in replacement for [`SecretStream`](https://github.com/holepunchto/hyperswarm-secret-stream) when you don't need the encryption and want to replicate hypercores (corestores) to/from the browser.
 
+## Why
 Some cryptographic primitives needed to implement noise encryption in the browser are not implemented in `sodium-javascript` preventing easy replication of hypercores in that environment, while `dht-relay` exists it is marked experimental and **do not use in production**. This is a simpler and explicitly unsafe alternative that allows replicating hypercores in the browser over websockets (ssl/tls) or webrtc (SRTP) using their standard encryption protocols. 
 
 YMMV.
