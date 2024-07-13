@@ -1,0 +1,42 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.mjs"
+  },
+  "dependencies": {
+    "@fastify/http-proxy": "^9.5.0",
+    "@fastify/websocket": "^10.0.1",
+    "bufferutil": "^4.0.8",
+    "clsx": "^2.1.1",
+    "compact-encoding": "^2.15.0",
+    "corestore": "^6.18.2",
+    "fastify": "^4.28.1",
+    "http-proxy": "^1.18.1",
+    "hypercore-crypto": "^3.4.2",
+    "next": "^14.2.5",
+    "not-secret-stream": "^1.0.0",
+    "pino": "^9.2.0",
+    "protomux": "^3.8.1",
+    "protomux-rpc": "^1.5.2",
+    "random-access-memory": "^6.2.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "sodium-javascript": "^0.8.0",
+    "sodium-native": "^4.1.1",
+    "tiny-buffer-map": "^1.1.1",
+    "utf-8-validate": "^6.0.4",
+    "websocket-stream": "^5.5.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  },
+  "imports": {
+    "sodium-native": "soidum-javascript"
+  }
+}

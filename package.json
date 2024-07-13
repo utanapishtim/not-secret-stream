@@ -1,7 +1,7 @@
 {
   "name": "not-secret-stream",
   "version": "1.0.0",
-  "description": "",
+  "description": "An unencrypted drop-in replacement for @hyperswarm/secret-stream",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +14,7 @@
     "compact-encoding": "^2.15.0",
     "framed-stream": "^1.0.1",
     "hypercore-crypto": "^3.4.2",
+    "sodium-universal": "^4.0.1",
     "streamx": "^2.17.0"
   },
   "devDependencies": {
